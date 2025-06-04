@@ -1,0 +1,8 @@
+…or create a new repository on the command line
+echo "# strivers-dsa-sheet" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:VIGNESHREDDY25/strivers-dsa-sheet.git
+git push -u origin main
